@@ -2,7 +2,7 @@ name: github action shell
 on: [push]
 jobs:
   test-shell-scripting:
-  steps;
+  steps:
     - name: cek kode repositori
       uses: actions/checkout@v2
     
