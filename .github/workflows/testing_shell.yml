@@ -1,0 +1,16 @@
+name: github action shell
+on: [push]
+jobs:
+  test-shell-scripting:
+  steps;
+    - name: cek kode repositori
+      uses: actions/checkout@v2
+    
+    - run: echo "selamat datang di bellshade shell scripting"
+    
+    - run: echo "jalan pada ${{ runner.os }}"
+    - name: list dari direktori shell scripting
+      run: |
+        ls ${{ github.workspace }}
+    
+    - run: echo "status ${{ job.status }}"
