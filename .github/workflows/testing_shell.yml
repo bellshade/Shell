@@ -2,6 +2,7 @@ name: github action shell
 on: [push]
 jobs:
   test-shell-scripting:
+  runs-on: ubuntu-latest
   steps:
     - name: cek kode repositori
       uses: actions/checkout@v2
