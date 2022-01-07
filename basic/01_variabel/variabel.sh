@@ -1,10 +1,10 @@
 #!/bin/sh
 
 # membuat variabel
-NAMA = "adam levine"
-NAMA_KEDUA = "sherlock holmes"
-NAMA_3 = "tony stark"
-ANGKA_BELASAN = 15
+NAMA="adam levine"
+NAMA_KEDUA="sherlock holmes"
+NAMA_3="tony stark"
+ANGKA_BELASAN=15
 
 # membuat variabel nama read only 
 # atau nilainya tidak bisa dirubah
