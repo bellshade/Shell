@@ -56,7 +56,26 @@ Nama Buah Index 0 : pir
 Panjang Array : 4
 Index Setiap Buah : 0 1 2 3
 ```
-
 Di line 2 script diatas itu `menambahkan data di index 3` dan line 3 `mengubah index 0 menjadi pir`
 
-> Note: Uniknya untuk array kita bebas ingin menambahkan index ke berapa
+Lalu bagaimana ketika kita ingin menghapus data array ? Mudah sekali kita bisa menggunakan method `unset` jadi yang kita lakukan itu `unset var[index]`, contohnya 
+
+```bash
+#!/bin/bash
+
+buah=('apel' 'mangga' 'anggur')
+buah[3]="semangka"
+buah[0]="pir"
+unset buah[1]
+echo "Nama Buahnya adalah : ${buah[@]}"
+echo "Nama Buah Index 0 : ${buah[0]}"
+echo "Panjang Array : ${#buah[@]}"
+echo "Index Setiap Buah : ${!buah[@]}"
+
+Output:
+Nama Buahnya adalah : pir anggur semangka
+Nama Buah Index 0 : pir
+Panjang Array : 3
+Index Setiap Buah : 0 2 3
+```
+> Note: Uniknya untuk array kita bebas ingin menambahkan index ke berapa 
