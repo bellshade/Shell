@@ -13,5 +13,7 @@ jobs:
       - name: list dari direktori shell scripting
         run: |
           ls ${{ github.workspace }}
+          chmod +x test.sh
+          sh ./test.sh
       
       - run: echo "status ${{ job.status }}"
