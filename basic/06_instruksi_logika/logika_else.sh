@@ -3,7 +3,7 @@
 a=20
 b=50
 
-if [[ $a == $b ]]
+if [ $a == $b ]
 then
   echo "a sama dengan b"
 else
