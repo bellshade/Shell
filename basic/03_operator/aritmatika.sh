@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 penjumlahan=`expr 2 + 2`
 pengurangan=`expr 5 - 3`
 perkalian=`expr 3 * 4`

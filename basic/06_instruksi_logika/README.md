@@ -39,7 +39,7 @@ fi
 
 pernyataan **if...else...fi** adalah bentuk berikutnya dari pernyataan kontrol yang memungkinkan shell untuk mengeksekusi pernyataan dengan cara yang terkontrol dan membuat pilihan yang tepat.
 
-```
+```shell
 if [ ekpresi ]
 then
   statemen
@@ -48,7 +48,7 @@ else
 fi
 ```
 
-```bash
+```shell
 #!/bin/sh
 
 a=10
@@ -66,7 +66,7 @@ fi
 
 pernyataan **if .. eif .. fi** adalah bentuk lanjutan dari pernytaan kontrol yang memungkinkan shell membuat keputusan yang benar dari beberapa kondisi.
 
-```
+```shell
 if [ ekspresi ]
 then
   statement
@@ -83,7 +83,6 @@ fi
 ```bash
 a=10
 b=60
-
 if [ $a == $b]
 then
   echo "a sama dengan b"
