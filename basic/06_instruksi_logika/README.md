@@ -26,12 +26,12 @@ ekspresi _shell_ dievaluasi dalam sintaks di atas. jika nilai yang dihasilkan ad
 a=10
 b=30
 
-if [[ $a == $b ]]
+if [ $a == $b ]
 then
   echo "a sama dengan b"
 fi
 
-if [[ $a != $b]]
+if [ $a != $b]
 then
   echo "a tidak sama dengan b"
 fi
@@ -39,8 +39,8 @@ fi
 
 pernyataan **if...else...fi** adalah bentuk berikutnya dari pernyataan kontrol yang memungkinkan shell untuk mengeksekusi pernyataan dengan cara yang terkontrol dan membuat pilihan yang tepat.
 
-```
-if [[ ekpresi ]]
+```shell
+if [ ekpresi ]
 then
   statemen
 else
@@ -48,13 +48,13 @@ else
 fi
 ```
 
-```bash
+```shell
 #!/bin/sh
 
 a=10
 b=50
 
-if [[$a == $b]]
+if [$a == $b]
 then
   echo "a sama dengan b"
 else
@@ -66,11 +66,11 @@ fi
 
 pernyataan **if .. eif .. fi** adalah bentuk lanjutan dari pernytaan kontrol yang memungkinkan shell membuat keputusan yang benar dari beberapa kondisi.
 
-```
-if [[ ekspresi ]]
+```shell
+if [ ekspresi ]
 then
   statement
-elif [[ ekspresi ]]
+elif [ ekspresi ]
 then
   statement
 else
@@ -83,14 +83,13 @@ fi
 ```bash
 a=10
 b=60
-
-if [[ $a == $b]]
+if [ $a == $b]
 then
   echo "a sama dengan b"
-elif [[ $a -gt $b]]
+elif [ $a -gt $b]
 then
   echo "a lebih besar dari b"
-elif [[ $a -lt $b ]]
+elif [ $a -lt $b ]
 then
   echo "a lebih kecil dari b"
 else
