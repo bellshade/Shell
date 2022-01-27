@@ -4,7 +4,7 @@
   Part of Bellshade Project, managed by <a href="http://discord.gg/S4rrXQU"> WPU Discord Community</a> <br>
   WPU Community is the fastest growing software developer forum initiated by <a href="https://www.youtube.com/c/WebProgrammingUNPAS"> Mr. Sandhika Galih</a> <br>
   <!-- badge link discord -->
-  <a href="http://discord.gg/S4rrXQU"><img src="https://img.shields.io/github/license/bellshade/Shell?style=for-the-badge"></a>
+  <a href="http://discord.gg/S4rrXQU">
   <!-- badge visitor -->
   <img alt="Visitor Badge" src="https://visitor-badges.glitch.me?username=bellshade&repo=shell&label=VISITOR&style=for-the-badge&color=%2324FF62&contentType=svg">
   <!-- badge lisensi -->
