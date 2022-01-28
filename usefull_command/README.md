@@ -23,4 +23,4 @@ minimum untuk menjalani pogram shell:
   Kita tidak perlu mengaktifkan beberapa kebutuhan dan lain-lain karena shell ini dirancang untuk linux dan macOS (unix).
 
 # Usefull Command
-Hello Gais, oke ini folder dari usefull command, disini banyak sekali command-command yang menarik dan berguna ketika kita sedang melakukan operasi. Nex Ditunggu aja materinya , mungkin akan publish setelah materi advance terpenuhi
+Hello Gais, oke ini folder dari usefull command, disini banyak sekali command-command yang menarik dan berguna ketika kita sedang melakukan operasi. Nex Ditunggu aja materinya , mungkin akan di update setelah materi advance terpenuhi
