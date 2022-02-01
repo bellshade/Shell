@@ -1,4 +1,5 @@
 # Shell
+
 <p align="center">
   <img width="20%" src="https://github.com/bellshade/Python/blob/main/assets/logo.png?raw=true"><br/><br/>
   Part of Bellshade Project, managed by <a href="http://discord.gg/S4rrXQU"> WPU Discord Community</a> <br>
@@ -14,7 +15,6 @@
 
 repositori ini bersiki kumpulan berbagai macam materi pembelajaran dari shell scripting.
 
-
 ## 🎉🎉 Selamat Datang di Shell 🎉🎉
 
-Shell adalah orogram yang menjembatani user dengan sistem operasi dalam hal ini kernel atau inti dari sistem operasi, umumnya shell menyediakan prompt sebagai user interface, tempat dimana user mengetikkan perintah yang diinginkan baik perintah internal shell atau perintah ekseskusi dari suatu file.shell secara default dan otomatis terdapat pada sistem operasi unix dan linux (untuk windows menggunakan wsl)
+Shell adalah program yang menjembatani user dengan sistem operasi dengan hal ini kernel atau inti dari sistem operasi, umumnya shell menyediakan prompt sebagai user interface, tempat dimana user mengetikkan perintah yang diinginkan baik perintah internal shell atau perintah ekseskusi dari suatu file.shell secara default dan otomatis terdapat pada sistem operasi unix dan linux (untuk windows menggunakan wsl atau dengan singkatan [Windows Susbsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/))
