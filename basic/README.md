@@ -38,6 +38,7 @@ Pada kesempatan kali ini kami dari Bellshade mengajak kalian yang ingin belajar 
 |  13 |        [`Environment Variabels`](https://github.com/bellshade/Shell/tree/main/basic/12_environment_variables)        |
 |  14 |    [`Operation File dan Folder`](https://github.com/bellshade/Shell/tree/main/basic/13_operation_file_dan_folder)    |
 |  15 |              [`Permission File`](https://github.com/bellshade/Shell/tree/main/basic/14_permission_file)              |
+|  16 |              [`Materi Shebang `](https://github.com/bellshade/Shell/tree/main/basic/15_shebang)		             |
 
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
