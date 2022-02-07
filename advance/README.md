@@ -22,3 +22,5 @@ Minimum untuk menjalani pogram shell:
 - Linux _atau_ Mac OS
 
   Kita tidak perlu mengaktifkan beberapa kebutuhan dan lain-lain karena shell ini dirancang untuk Linux dan Mac OS(Unix).
+
+> Next : Regular Expression

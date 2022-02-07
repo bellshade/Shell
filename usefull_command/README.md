@@ -24,3 +24,5 @@ minimum untuk menjalani pogram shell:
 
 # Usefull Command
 Hello Gais, oke ini folder dari usefull command, disini banyak sekali command-command yang menarik dan berguna ketika kita sedang melakukan operasi. Nex Ditunggu aja materinya , mungkin akan di update setelah materi advance terpenuhi
+
+Next : manipulation read file
