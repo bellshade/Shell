@@ -61,8 +61,10 @@
 ## [test](https://github.com/bellshade/shell/tree/main//test.sh)
 
 ## usefull command
-  * manipulation read file
-    * [manipulation](https://github.com/bellshade/shell/tree/main/usefull_command/manipulation_read_file/manipulation.sh)
-  * read file
-    * [cat](https://github.com/bellshade/shell/tree/main/usefull_command/read_file/cat.sh)
-    * [head](https://github.com/bellshade/shell/tree/main/usefull_command/read_file/head.sh)
+  * 00 read file
+    * [cat](https://github.com/bellshade/shell/tree/main/usefull_command/00_read_file/cat.sh)
+    * [head](https://github.com/bellshade/shell/tree/main/usefull_command/00_read_file/head.sh)
+  * 01 manipulation read file
+    * [manipulation](https://github.com/bellshade/shell/tree/main/usefull_command/01_manipulation_read_file/manipulation.sh)
+  * 02 sed and awk
+    * [sed](https://github.com/bellshade/shell/tree/main/usefull_command/02_sed_and_awk/sed.sh)
