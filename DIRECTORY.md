@@ -68,3 +68,5 @@
     * [manipulation](https://github.com/bellshade/shell/tree/main/usefull_command/01_manipulation_read_file/manipulation.sh)
   * 02 sed and awk
     * [sed](https://github.com/bellshade/shell/tree/main/usefull_command/02_sed_and_awk/sed.sh)
+  * 03 search file
+    * [search file](https://github.com/bellshade/shell/tree/main/usefull_command/03_search_file/search_file.sh)
