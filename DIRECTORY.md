@@ -56,6 +56,8 @@
   * [factorial](https://github.com/bellshade/shell/tree/main/simple_project/factorial.sh)
   * [fizzbuzz](https://github.com/bellshade/shell/tree/main/simple_project/fizzbuzz.sh)
   * [kalkulator](https://github.com/bellshade/shell/tree/main/simple_project/kalkulator.sh)
+  * [pattern berlian](https://github.com/bellshade/shell/tree/main/simple_project/pattern_berlian.sh)
+  * [pattern segitiga](https://github.com/bellshade/shell/tree/main/simple_project/pattern_segitiga.sh)
   * [prime checking](https://github.com/bellshade/shell/tree/main/simple_project/prime_checking.sh)
 
 ## [test](https://github.com/bellshade/shell/tree/main//test.sh)
