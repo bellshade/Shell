@@ -53,6 +53,7 @@
     * [test-shebang-dash](https://github.com/bellshade/shell/tree/main/basic/15_shebang/test-shebang-dash.sh)
 
 ## simple project
+  * [cpu temp](https://github.com/bellshade/shell/tree/main/simple_project/cpu_temp.sh)
   * [cuaca](https://github.com/bellshade/shell/tree/main/simple_project/cuaca.sh)
   * [factorial](https://github.com/bellshade/shell/tree/main/simple_project/factorial.sh)
   * [fizzbuzz](https://github.com/bellshade/shell/tree/main/simple_project/fizzbuzz.sh)
@@ -61,6 +62,7 @@
   * [pattern segitiga](https://github.com/bellshade/shell/tree/main/simple_project/pattern_segitiga.sh)
   * [prime checking](https://github.com/bellshade/shell/tree/main/simple_project/prime_checking.sh)
   * [spinner](https://github.com/bellshade/shell/tree/main/simple_project/spinner.sh)
+  * [warna](https://github.com/bellshade/shell/tree/main/simple_project/warna.sh)
 
 ## [test](https://github.com/bellshade/shell/tree/main//test.sh)
 
