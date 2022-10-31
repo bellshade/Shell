@@ -30,7 +30,7 @@ alasan kita tidak dapat menggunakan karakter sepert !, &, atau -, karena karakte
 
 variabel didefinisikan sebagai berikut
 ```
-VARIABEL = VALUE
+VARIABEL=VALUE
 ```
 
 contoh diatass mendifinisikan variabel dan memberikan nilai padanya, variabel jenis ini disebut dengan **variabel skalar**. variabel skalar hanya dapat menampung satu nilai pada satu waktu. shell memungkinkn kita untuk menyimpan nilai apapun yang diingkan dalam sebuah variabel.
@@ -40,7 +40,7 @@ contoh diatass mendifinisikan variabel dan memberikan nilai padanya, variabel je
 untuk mengakses nilai yang disimpan dalam variabel. awali pemanggila dengan tanda dolar ($) sebagai contoh
 
 ```bash
-NAMA = "james cameroon"
+NAMA="james cameroon"
 echo $NAMA
 ```
 
@@ -49,9 +49,9 @@ echo $NAMA
 shell juga menyediakan cara untuk menandai variabel sebagai read-only dengan menggunakan perintah ``readonly``. setelah variabel ditandai, maka nilainya tidak dapat diubah.
 
 ```bash
-NAMA = "adam levine"
+NAMA="adam levine"
 readonly NAMA
-NAMA = "james cameroon"
+NAMA="james cameroon"
 ```
 
 jika dijalankan maka akan menghasilkan
@@ -70,7 +70,7 @@ unset NAMA_VARIABEL
 perintah diatas menghapus nilai dari variabel yng ditentukan.
 
 ```bash
-NAMA = "james cameroon"
+NAMA="james cameroon"
 unset NAMA
 echo $NAMA
 ```
