@@ -13,8 +13,8 @@
  <br>
 </p>
 
-Repositori ini bersiki kumpulan berbagai macam materi pembelajaran dari Shell Scripting.
+Repositori ini berisi kumpulan berbagai macam materi pembelajaran dari Shell Scripting.
 
 ## 🎉🎉 Selamat Datang di Shell 🎉🎉
 
-Shell adalah program yang menjembatani user dengan sistem operasi dengan hal ini kernel atau inti dari sistem operasi, umumnya shell menyediakan prompt sebagai user interface, tempat dimana user mengetikkan perintah yang diinginkan baik perintah internal shell atau perintah ekseskusi dari suatu file.shell secara default dan otomatis terdapat pada sistem operasi unix dan linux (untuk pengguna Windows menggunakan WSL atau dengan singkatan [(Windows Subsystem for Linux)](https://docs.microsoft.com/en-us/windows/wsl/)
+Shell adalah program yang menjembatani user dengan sistem operasi dengan hal ini kernel atau inti dari sistem operasi, umumnya shell menyediakan prompt sebagai user interface, tempat dimana user mengetikkan perintah yang diinginkan baik perintah internal shell atau perintah eksekusi dari suatu file.shell secara default dan otomatis terdapat pada sistem operasi unix dan linux (untuk pengguna Windows menggunakan WSL atau dengan singkatan [(Windows Subsystem for Linux)](https://docs.microsoft.com/en-us/windows/wsl/)

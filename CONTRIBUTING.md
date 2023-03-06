@@ -15,7 +15,7 @@ Semua boleh ikut berkontribusi sekecil apapun dengan pengecualian sebagai beriku
 
 gunakan [issue](https://github.com/bellshade/Shell/issues/new) apabila ingin menambahkan kode atau implementasi lainnya, agar tidak ada konflik dengan pull request lainnya
 
-- laukan penjelasan deskripsi perubahan yang anda lakukan pada repositori kami dengan membuat penjelasan pada issue
+- lakukan penjelasan deskripsi perubahan yang anda lakukan pada repositori kami dengan membuat penjelasan pada issue
 
 - setelah menjelaskan perubahan anda di [issue]()  kemudian lakukan fork pada repositori kami.
 
@@ -58,7 +58,7 @@ pull request akan di-_merge_ jika
 
 **lainnya**
 
-- jika ada knedala atau masalah dalam _pull request_, kamu bisa laporkan masalahnya dalam issue
+- jika ada kendala atau masalah dalam _pull request_, kamu bisa laporkan masalahnya dalam issue
 
 - jika ada test yang tidak lewat atau gagal, kami akan cek kembali perubahan anda
 

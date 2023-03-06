@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 NAMA="arfy"
 NAMA2="slowy"

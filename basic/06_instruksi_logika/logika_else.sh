@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 a=20
 b=50

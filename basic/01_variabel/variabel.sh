@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # membuat variabel
 NAMA="adam levine"

@@ -1,12 +1,12 @@
 # Variabel
 
-Variabel, adalah string karakter yang kita beri nilai, nilai yang diberikan dpat berup anka, teks, nama file, perangkat atau jenis data lainnya.
+Variabel, adalah string karakter yang kita beri nilai, nilai yang diberikan dapat berupa angka, teks, nama file, perangkat atau jenis data lainnya.
 
 variabel tidak lebih dari petunjuk ke data aktual. shell memungkinkan kita untuk membuat, menetapkan dan menghapus variabel.
 
 nama variabel hanya boleh berisi huruf( a sampai z atau A sampai Z) angka (0 sampai 9) atau karakter garis bawah ( ``_`` )
 
-dengan peraturan conventional shell, penamaan variabel haru berifat uppercase atau huruf kapital.
+dengan peraturan conventional shell, penamaan variabel harus berifat uppercase atau huruf kapital.
 
 contoh nama variabel yang vaild
 ```
@@ -24,7 +24,7 @@ VARIABEL1-VARIABEL2
 VARIABEL3!
 ```
 
-alasan kita tidak dapat menggunakan karakter sepert !, &, atau -, karena karakter ini meiliki arti khusus untuk shell.
+alasan kita tidak dapat menggunakan karakter seperti !, &, atau -, karena karakter ini meiliki arti khusus untuk shell.
 
 ## mendifinsikan variabel
 
@@ -33,11 +33,11 @@ variabel didefinisikan sebagai berikut
 VARIABEL=VALUE
 ```
 
-contoh diatass mendifinisikan variabel dan memberikan nilai padanya, variabel jenis ini disebut dengan **variabel skalar**. variabel skalar hanya dapat menampung satu nilai pada satu waktu. shell memungkinkn kita untuk menyimpan nilai apapun yang diingkan dalam sebuah variabel.
+contoh diatas mendefinisikan variabel dan memberikan nilai padanya, variabel jenis ini disebut dengan **variabel skalar**. variabel skalar hanya dapat menampung satu nilai pada satu waktu. shell memungkinkan kita untuk menyimpan nilai apapun yang diinginkan dalam sebuah variabel.
 
 ## mengakses nilai
 
-untuk mengakses nilai yang disimpan dalam variabel. awali pemanggila dengan tanda dolar ($) sebagai contoh
+untuk mengakses nilai yang disimpan dalam variabel. awali pemanggilan dengan tanda dolar ($) sebagai contoh
 
 ```bash
 NAMA="james cameroon"
@@ -54,9 +54,9 @@ readonly NAMA
 NAMA="james cameroon"
 ```
 
-jika dijalankan maka akan menghasilkan
+jika dijalankan maka akan menghasilkan output
 ```
-/bin/sh: NAME: This variable is read only.
+NAME: is read only.
 ```
 
 ## variabel unset
@@ -67,7 +67,7 @@ unset atau menghapus variabel mengarahkan shell untuk menghapus variabel dari da
 unset NAMA_VARIABEL
 ```
 
-perintah diatas menghapus nilai dari variabel yng ditentukan.
+perintah diatas menghapus nilai dari variabel yang ditentukan.
 
 ```bash
 NAMA="james cameroon"
@@ -75,5 +75,5 @@ unset NAMA
 echo $NAMA
 ```
 
-contoh di atas tidak mencetak apapun. kita tidak dapat menggunakan perintah **unset** untuk menghapus variabel yang ditandai **readomly**
+contoh di atas tidak mencetak apapun. kita tidak dapat menggunakan perintah **unset** untuk menghapus variabel yang ditandai **readonly**
 

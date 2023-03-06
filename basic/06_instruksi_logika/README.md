@@ -1,27 +1,27 @@
 # instruksi logika
 
-saat menulis skrip shelll, mungkin ketika kita perlu mengadopsi satu jalur dari dua jalur yang diberikan. jadi, kita perlu menggunakan pernyataan bersyarat yang memungkinkan program anda membuat keputusuan yang benar dan melakukan tindakan yang benar.
+saat menulis shell script, mungkin kita perlu mengadopsi satu jalur dari dua jalur yang diberikan. Jadi, kita perlu menggunakan pernyataan bersyarat yang memungkinkan program anda membuat keputusuan yang benar dan melakukan tindakan yang benar.
 
-unix shell mendukung pernyataan bersyarat yang digunakan untuk melakukan tindakan yang berbeda berdasarkan kondisi yang berbeda. kami sekarang akan memahami dua pernyataan  pengambalikan keputusan di sini
+unix shell mendukung pernyataan bersyarat yang digunakan untuk melakukan tindakan yang berbeda berdasarkan kondisi yang berbeda. kami sekarang akan memahami dua pernyataan pengambalikan keputusan di sini
 
-- pernyataan **if else**
-- kasus pernyataan **esac**
+- pernyataan **if..elif..else..fi**
+- kasus pernyataan **case..esac**
 
-## pernyataan if .. fi
+## pernyataan if..fi
 
-pernyataan if else adalah pernyataan pengambilan keputusan yang berguna yang dapat digunakan untuk memilih opsi dari serangkain opsi yang diberikan. sintaks
+pernyataan if adalah pernyataan pengambilan keputusan yang berguna yang dapat digunakan untuk memilih opsi dari serangkain opsi yang diberikan. sintaks
 
-```
-if [ekspresi]
+```bash
+if [ ekspresi ]
 then
-  statemen
+  pernyataan
 fi
 ```
 
-ekspresi _shell_ dievaluasi dalam sintaks di atas. jika nilai yang dihasilkan adalah _true_. 
+ekspresi _shell_ dievaluasi dalam sintaks di atas. jika nilai yang dihasilkan adalah _true_.
 
 ```bash
-#!/bin/sh
+#!/bin/bash
 
 a=10
 b=30
@@ -31,30 +31,31 @@ then
   echo "a sama dengan b"
 fi
 
-if [ $a != $b]
+if [ $a != $b ]
 then
   echo "a tidak sama dengan b"
 fi
 ```
 
-pernyataan **if...else...fi** adalah bentuk berikutnya dari pernyataan kontrol yang memungkinkan shell untuk mengeksekusi pernyataan dengan cara yang terkontrol dan membuat pilihan yang tepat.
+## pernyataan if..else..fi
+pernyataan **if..else..fi** adalah bentuk berikutnya dari pernyataan kontrol yang memungkinkan shell untuk mengeksekusi pernyataan dengan cara yang terkontrol dan membuat pilihan yang tepat.
 
 ```shell
 if [ ekpresi ]
 then
-  statemen
+  pernyataan1
 else
-  statemen else
+  pernyataan2
 fi
 ```
 
-```shell
-#!/bin/sh
+```bash
+#!/bin/bash
 
 a=10
 b=50
 
-if [$a == $b]
+if [ $a == $b ]
 then
   echo "a sama dengan b"
 else
@@ -62,31 +63,33 @@ else
 fi
 ```
 
-## pernyataan if .. elif .. fi
+## pernyataan if..elif..fi
 
-pernyataan **if .. eif .. fi** adalah bentuk lanjutan dari pernytaan kontrol yang memungkinkan shell membuat keputusan yang benar dari beberapa kondisi.
+pernyataan **if..elif..fi** adalah bentuk lanjutan dari pernytaan kontrol yang memungkinkan shell membuat keputusan yang benar dari beberapa kondisi.
 
-```shell
+```bash
 if [ ekspresi ]
 then
-  statement
+  pernyataan1
 elif [ ekspresi ]
 then
-  statement
+  pernyataan2
 else
-  statement
+  pernyataan3
 fi
 ```
 
 **contoh**
 
 ```bash
+#!/bin/bash
+
 a=10
 b=60
-if [ $a == $b]
+if [ $a == $b ]
 then
   echo "a sama dengan b"
-elif [ $a -gt $b]
+elif [ $a -gt $b ]
 then
   echo "a lebih besar dari b"
 elif [ $a -lt $b ]
@@ -97,42 +100,47 @@ else
 fi
 ```
 
-## pernyataan esac
+## pernyataan case..esac
 
-kita dapat menggunakan beberapa pernyataan **if ... elif** untuk melakukan cabang multiway. Namun, ini tidak selalu merupakan solusi terbaik, terutama ketika semua cabang bergantung pada nilai satu variabel.
+kita dapat menggunakan beberapa pernyataan **if..elif** untuk melakukan cabang multiway. Namun, ini tidak selalu merupakan solusi terbaik, terutama ketika semua cabang bergantung pada nilai satu variabel.
+shell mendukung pernyaataan **case..esac** yang menangani situasi ini dengan tepat, dan melakukannya lebih efisien daripada pernyataan ``if..elif`` berulang.
 
-shell mendukugn pernyaataan **case ... esac** yang menangani situasi ini dengan tepat, dan melakukannya lebih efisisien daripada pernyataan ``if ... elif`` berulang.
-
-sintaks dasar dari pernyataan **case ... esac** adalah memberikan ekspresi untuk mengevaluasi dan mengeksekusi beberapa pernyataan berbeda berdasarkan nilai ekspresi.
-
+sintaks dasar dari pernyataan **case..esac** adalah memberikan ekspresi untuk mengevaluasi dan mengeksekusi beberapa pernyataan yang berbeda berdasarkan nilai ekspresi.
 interpreter memerikssa setiap kasus terhadap nilai ekspresi sampai ditemukan kecocokan. jika tidak ada yang cocok, kondisi default akan digunakan.
 
-```
+```bash
 case kata in
   pattern1)
-    statement
+    pernyataan1
+    ;;
   pattern2)
-    statement
+    pernyataan2
+    ;;
   pattern3)
-    statement
+    pernyataan3
+    ;;
   *)
-    default statement
+    pernyataan default
+    ;;
 esac
 ```
 
 penggunaan yang baik untuk pernyataan kasus adalah evaluasi argumen baris perintah sebagi berikut.
 
-```
-#!/bin/sh
+```bash
+#!/bin/bash
 
 buah="kiwi"
 case $buah in
-  "apel") echo "apel adalah buah paling enak"
-  ;;
-  "pisang") echo "saya menyukai pisang"
-  ;;
-  "kiwi") echo "kiwi adalah buah paling enak"
-  ;;
+  "apel") 
+    echo "apel adalah buah paling enak"
+    ;;
+  "pisang") 
+    echo "saya menyukai pisang"
+    ;;
+  "kiwi") 
+    echo "kiwi adalah buah paling enak"
+    ;;
 esac
 ```
 
