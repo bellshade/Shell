@@ -21,5 +21,5 @@ Maka outputnya akan mengeluarkan hasil nama file yang memiliki extension .txt. A
 |`spesific file`    | sudo find / -name sample.txt                                               	|
 |`find and remove`  | sudo find / -name sample.txt -exec rm -i {} \; 	                            |
 |`empty file`   	| sudo find ./example -empty                                                  	|
-|`search and grep`  | sudo find / -type f -name sample.txt -exec grep "Hello" {} \;                 |
+|`search and grep`  | sudo find / -type f -name flag.txt -exec grep "BELLSH{" {} \;                 |
 
