@@ -78,3 +78,5 @@
     * [search file](https://github.com/bellshade/shell/tree/main/usefull_command/03_search_file/search_file.sh)
   * 04 find advance
     * [find advance](https://github.com/bellshade/shell/tree/main/usefull_command/04_find_advance/find_advance.sh)
+  * 05 look services
+    * [look services](https://github.com/bellshade/shell/tree/main/usefull_command/05_look_services/look_services.sh)
