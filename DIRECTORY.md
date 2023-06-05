@@ -52,6 +52,9 @@
     * [test-shebang-bash](https://github.com/bellshade/shell/tree/main/basic/15_shebang/test-shebang-bash.sh)
     * [test-shebang-dash](https://github.com/bellshade/shell/tree/main/basic/15_shebang/test-shebang-dash.sh)
 
+## playground
+  * [rata rata](https://github.com/bellshade/shell/tree/main/playground/rata_rata.sh)
+
 ## simple project
   * [cpu temp](https://github.com/bellshade/shell/tree/main/simple_project/cpu_temp.sh)
   * [cuaca](https://github.com/bellshade/shell/tree/main/simple_project/cuaca.sh)
