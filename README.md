@@ -43,9 +43,9 @@
     </li>
     <li><a href="#usage">Usage</a></li>
       <ul>
-        <li><a href="#Buka-Terminal">Buka Terminal</a></li>
-        <li><a href="#Mengetik-Perintah-Shell">Mengetik Perintah Shell</a></li>
-        <li><a href="#Menjalankan-Script-Shell">Menjalankan Script Shell</a></li>
+        <li><a href="#buka-terminal">Buka Terminal</a></li>
+        <li><a href="#mengetik-perintah-shell">Mengetik Perintah Shell</a></li>
+        <li><a href="#menjalankan-script-shell">Menjalankan Script Shell</a></li>
       </ul>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
