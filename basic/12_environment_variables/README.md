@@ -59,7 +59,7 @@ Variabel-variabel ini tidak ada di `printenv`, melainkan dari file sistem, seper
 
 ## Menambahkan Environment Variables
 
-Anda dapat menambahkan environment variables Anda sendiri sehingga dapat diakses oleh semua proses dalam satu shell. Jalankan perintah:
+kamu dapat menambahkan environment variables kamu sendiri sehingga dapat diakses oleh semua proses dalam satu shell. Jalankan perintah:
 
 ```bash
 anakmamak@CoolLaptop:~$ export namaVariabel=isiVariabel
@@ -67,6 +67,6 @@ anakmamak@CoolLaptop:~$ export namaVariabel=isiVariabel
 
 untuk menambah environment variable, dimana `namaVariabel` merupakan nama dari variabel dan `isiVariabeel` adalah isi/value dari variabel. `export` merupakan perintah yang digunakan untuk mengekspor variabel ke dalam environment variables.
 
-Perlu diketahui bahwa environment variable yang Anda tambahkan hanya bersifat sementara dan hanya dapat diakses oleh shell yang digunakan. Jika Anda menggunakan shell lain atau membuka ulang shell, maka variabel tersebut akan terhapus/tidak ditemukan.
+Perlu diketahui bahwa environment variable yang kamu tambahkan hanya bersifat sementara dan hanya dapat diakses oleh shell yang digunakan. Jika kamu menggunakan shell lain atau membuka ulang shell, maka variabel tersebut akan terhapus/tidak ditemukan.
 
 
