@@ -1,0 +1,1 @@
+awk -e '$1 ~ /p[o]/ {print $0}' buah.txt
