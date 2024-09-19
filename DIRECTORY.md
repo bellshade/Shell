@@ -1,4 +1,8 @@
 
+## advance
+  * 00 regex
+    * [regex](https://github.com/bellshade/shell/tree/main/advance/00_regex/regex.sh)
+
 ## basic
   * 00 hello world
     * [hello world](https://github.com/bellshade/shell/tree/main/basic/00_hello_world/hello_world.sh)
