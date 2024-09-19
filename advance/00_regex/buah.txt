@@ -1,0 +1,10 @@
+apple      red    4
+banana     yellow 6
+strawberry red    3
+raspberry  red    99
+grape      purple 10
+apple      green  8
+plum       purple 2
+kiwi       brown  4
+potato     brown  9
+pineapple  yellow 5
