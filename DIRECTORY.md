@@ -68,6 +68,8 @@
   * [pattern berlian](https://github.com/bellshade/shell/tree/main/simple_project/pattern_berlian.sh)
   * [pattern segitiga](https://github.com/bellshade/shell/tree/main/simple_project/pattern_segitiga.sh)
   * [prime checking](https://github.com/bellshade/shell/tree/main/simple_project/prime_checking.sh)
+  * sorting
+    * [bubble sorting](https://github.com/bellshade/shell/tree/main/simple_project/sorting/bubble_sorting.sh)
   * [spinner](https://github.com/bellshade/shell/tree/main/simple_project/spinner.sh)
   * [warna](https://github.com/bellshade/shell/tree/main/simple_project/warna.sh)
 
