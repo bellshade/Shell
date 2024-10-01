@@ -2,6 +2,8 @@
 ## advance
   * 00 regex
     * [regex](https://github.com/bellshade/shell/tree/main/advance/00_regex/regex.sh)
+  * 01 advance file
+    * [advance file](https://github.com/bellshade/shell/tree/main/advance/01_advance_file/advance_file.sh)
 
 ## basic
   * 00 hello world
