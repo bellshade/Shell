@@ -1,7 +1,14 @@
-# User Administration
+<div align="center">
+    <img src="https://www.linux.org/attachments/x4rdc9jfpg741-jpg.8999/" />
+</div>
+
+
+![bn](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
+
+## User Administration
 Hiyaa, materi ini adalah materi tentang management user yang ada di dalam linux. Pada dasarnya semua operating system itu sama, memiliki fitur group dan user yang dimana memiliki rule dan aturan yang berbeda-beda tiap usernya. Nah, mungkin kalau di OS tercinta **windows** sudah terbiasa, kali ini kita bahas di Linux operasi si paling Open Source :u.
 
-# Tahta User
+## Tahta User
 Dalam linux ada beberapa tahta user yang tersedia. Tiap tiap user ini memiliki batasan nya masing-masing ada yang hanya bisa akses di local home dia, akses sebagai root / **god**, dan terakhir ialah **root as god** user yang memiliki semua akses baik kill service, create user, lihat all log, dll. Oyaa, di Linux juga terdapat beberapa user yang dari awal sudah terbentuk yang disebut sebagai _**guest user**_ selain itu ada juga user yang hanya sebatas bisa akses home foldernya saja bisa dikatakan sebagai _**guest user**_
 
 | Nama                 | Deskripsi                                                                  |

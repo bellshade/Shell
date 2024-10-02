@@ -1,5 +1,5 @@
 name: github action shell
-on: [push]
+on: [pull]
 jobs:
   test-shell-scripting:
     runs-on: ubuntu-latest
@@ -12,8 +12,9 @@ jobs:
       - run: echo "jalan pada ${{ runner.os }}"
       - name: list dari direktori shell scripting
         run: |
-          ls ${{ github.workspace }}
-          chmod +x test.sh
-          sh ./test.sh
+          d=$(date + "%Y-%m-%d")
+          file="/tmp/test.txt.$$" && touch --date "$d" "$file"
+          echo $file && find . -iname "*.sh" -type f -newer $file > output.txt
+          for i in $(cat output.txt); do chmod +x $i && sh $i; done
       
       - run: echo "status ${{ job.status }}"
