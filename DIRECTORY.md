@@ -6,6 +6,8 @@
     * [advance file](https://github.com/bellshade/shell/tree/main/advance/01_advance_file/advance_file.sh)
   * 03 user administration
     * [user administration](https://github.com/bellshade/shell/tree/main/advance/03_user_administration/user_administration.sh)
+  * 04 system logging
+    * [system logging](https://github.com/bellshade/shell/tree/main/advance/04_system_logging/system_logging.sh)
 
 ## basic
   * 00 hello world
