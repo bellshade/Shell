@@ -1,5 +1,5 @@
 name: github action shell
-on: [pull]
+on: [pull_request, push]
 jobs:
   test-shell-scripting:
     runs-on: ubuntu-latest
