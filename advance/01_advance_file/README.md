@@ -1,4 +1,8 @@
-![Alt text](../../.github/asset/asset-ad-001.png)
+<div align="center">
+    <img src="../../.github/asset/asset-ad-001.png">
+</div>
+
+
 ![bn](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
 
 # Advance File
@@ -7,7 +11,7 @@ Yoo, materi kali ini sebenarnya lanjutan dari materi basic [operation file dan f
 # Change Owner
 Merupakan command yang digunakan untuk mengubah status kepemilikan dari file / folder. Ini sering digunakan untuk mengubah file tersebut punya siapa. Sebagai contoh disini kita punya 1 folder dan 1 file yang udah di save di `/opt`.
 
-```cmd
+```bash
 root@alpha:/opt/shellscript# ls -la
 total 12
 drwxr-xr-x 3 root root 4096 Oct  1 10:33 .
@@ -18,7 +22,7 @@ drwxr-xr-x 2 root root 4096 Oct  1 10:33 advance_file
 
 Dari sample tersebut `glourious` memiliki permission 644 yang dimana untuk user selain root hanya bisa diperbolehkan membaca tanpa write dan execute. Disini kita cobaa ubah ke chmod 711 agar user lain tidak bisa baca dan write ke file
 
-```cmd
+```bash
 root@alpha:/opt/shellscript# chmod 711 glorious && ls -l
 total 4
 drwxr-xr-x 2 root root 4096 Oct  1 10:33 advance_file
