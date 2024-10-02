@@ -1,1 +1,1 @@
-awk -e '$1 ~ /p[o]/ {print $0}' buah.txt
+awk -e '$1 ~ /p[o]/ {print $0}' ./advance/00_regex/buah.txt

@@ -14,13 +14,13 @@ check_os() {
     esac
 }
 
-if ["$(dpkg -l | awk '/sudo/ {print }' | wc -l)" -le 1]; then
-    check_os()
-    sleep 5
+if [ "$(dpkg -l | awk '/sudo/ {print }' | wc -l)" -le 1 ]; 
+then
+    check_os
+fi
 
 echo -e "create new user kyora ..."
 useradd kyora && echo -e "1\n\1n" | passwd kyora
-sleep 2
 
 echo -e "add kyora to sudoers ..."
 usermod -aG sudo kyora
