@@ -15,6 +15,6 @@ jobs:
           d=$(date "+%Y-%m-%d")
           file="/tmp/test.txt.$$" && touch --date "$d" "$file"
           echo $file && find . -iname "*.sh" -type f -newer $file > output.txt
-          for i in $(cat output.txt); do chmod +x $i && sh $i; done
+          for i in $(cat output.txt); do chmod +x $i && bash $i; done
       
       - run: echo "status ${{ job.status }}"
