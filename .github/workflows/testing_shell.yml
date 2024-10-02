@@ -14,7 +14,7 @@ jobs:
         run: |
           d=$(date "+%Y-%m-%d")
           file="/tmp/test.txt.$$" && touch --date "$d" "$file"
-          echo $file && find . -type d \( -path ./playground -o -path ./simple_project -o -path ./basic -o -path ./advance/03_user_administration -o -path ./usefull_command  \) -prune -o -iname "*.sh" -type f -newer $file > output.txt
+          echo $file && find . -type d \( -path ./playground -o -path ./simple_project -o -path ./basic -o -path ./advance/03_user_administration -o -path ./advance/01_advance_file -o -path ./usefull_command  \) -prune -o -iname "*.sh" -type f -newer $file > output.txt
           for i in $(cat output.txt); do if [ -d "$i" ]; then echo "$i adalah folder."; elif [ -f "$i" ]; then chmod +x "$i" && bash "$i"; else echo "$i tidak ditemukan atau bukan file/folder."; fi; done
 
       - run: echo "status ${{ job.status }}"
