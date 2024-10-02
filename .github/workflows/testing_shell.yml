@@ -12,7 +12,7 @@ jobs:
       - run: echo "jalan pada ${{ runner.os }}"
       - name: list dari direktori shell scripting
         run: |
-          d=$(date + "%Y-%m-%d")
+          d=$(date "+%Y-%m-%d")
           file="/tmp/test.txt.$$" && touch --date "$d" "$file"
           echo $file && find . -iname "*.sh" -type f -newer $file > output.txt
           for i in $(cat output.txt); do chmod +x $i && sh $i; done
