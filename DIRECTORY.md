@@ -66,6 +66,7 @@
   * [rata rata](https://github.com/bellshade/shell/tree/main/playground/rata_rata.sh)
 
 ## simple project
+  * [banned-ip-with-csf](https://github.com/bellshade/shell/tree/main/simple_project/banned-ip-with-csf.sh)
   * [cpu temp](https://github.com/bellshade/shell/tree/main/simple_project/cpu_temp.sh)
   * [cuaca](https://github.com/bellshade/shell/tree/main/simple_project/cuaca.sh)
   * [factorial](https://github.com/bellshade/shell/tree/main/simple_project/factorial.sh)
